@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "web" : "webpack ./app/css/app.scss ./app/js/app.js --watch"
+    "web": "webpack ./app/css/app.scss ./app/js/app.js --watch"
   },
   "author": "Kevin F",
   "license": "ISC",
@@ -21,6 +21,8 @@
     "webpack-dev-server": "^2.2.0-rc.0",
     "webpack-hot-middleware": "^2.20.0",
     "webpack-livereload-plugin": "^1.0.0"
-
+  },
+  "dependencies": {
+    "scrollmagic": "^2.0.5"
   }
 }
